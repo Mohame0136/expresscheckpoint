@@ -1,4 +1,4 @@
-const authhour = (req, res, next) => {
+const time = (req, res, next) => {
     var now = new Date();
 
     const hour = now.getHours();
@@ -19,4 +19,4 @@ const authday = (req, res, next) => {
     }
 };
 
-module.exports = time;
+module.exports = time , authday;
